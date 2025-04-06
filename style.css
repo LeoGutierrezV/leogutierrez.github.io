@@ -176,8 +176,12 @@ h6{
     line-height: 0.5em;
     margin-bottom: 40px;
 }
+.container .contentBox ul.tools h4{
+    font-size: 14px;
+}
 .container .contentBox ul.tools li{
     line-height: 0.1em;
+    font-size: 12px;
 }
 .rightSide{
     padding-left: 40px;
@@ -208,6 +212,9 @@ h6{
     font-size: 14px;
     margin: 0;
     white-space: pre-line;
+}
+.about.skills h4{
+    margin-top: 40px;
 }
 .about.skills .box{
     position: relative;
@@ -240,10 +247,14 @@ h6{
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 30px;
+    font-size: 12px;
 }
 
 .skills-container .box-skill {
     width: calc(50% - 10px);
+}
+.skills-container .box-skill strong{
+    display: block !important;
 }
 .skills-container .box-skill .percent {
     background: #ccc;
